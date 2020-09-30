@@ -37,7 +37,8 @@ namespace L4D2_AutoBhop_New
                 Console.WriteLine("[-] F1 : AutoBhop On/Off");
                 Console.WriteLine("[-] F2 : Exit Program");
                 Console.WriteLine();
-
+                Console.WriteLine("[★] AutoBhop : OFF");
+                
                 do
                 {
                     bool F1_Status = Util.IsKeyDown(System.Windows.Forms.Keys.F1);
