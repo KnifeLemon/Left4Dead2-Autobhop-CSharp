@@ -16,6 +16,8 @@ Edit [[Player.cs](https://github.com/KnifeLemon/Left4Dead2-Autobhop-CSharp/blob/
 <code>
   - 129 : Stand Ground
   - 131 : Duck Ground
-  return flag == 129 || flag == 131;
+  - 641 : Stand on Water
+  - 643 : Duck on Water
+  return flag == 129 || flag == 131 || flag == 641 || flag == 643;
 </code>
 </pre>
