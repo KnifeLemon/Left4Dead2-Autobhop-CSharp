@@ -11,7 +11,7 @@ Example :
 
 if want Add more player Flags
 
-Edit [[PlayerCs](https://github.com/KnifeLemon/Left4Dead2-Autobhop-CSharp/blob/f0a834fe99e54d9733609de79e7bd70d131a5d9c/L4D2_AutoBhop_New/Player.cs#L32, "Player.cs") -> 32 Line]
+Edit [[Player.cs](https://github.com/KnifeLemon/Left4Dead2-Autobhop-CSharp/blob/f0a834fe99e54d9733609de79e7bd70d131a5d9c/L4D2_AutoBhop_New/Player.cs#L32) -> 32 Line]
 <pre>
 <code>
   - 129 : Stand Ground
