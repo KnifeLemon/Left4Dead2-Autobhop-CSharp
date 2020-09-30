@@ -6,3 +6,12 @@ Type to CMD or Batch
   
 Example :
 > L4D2_AutoBhop_New.exe 0x7094D8 0xF0
+
+
+
+if want Add more player Flags
+<code>
+  Player.cs -> 32 Line
+  
+  return flag == 129 || flag == 131 || flag == Etc.Flag;
+</code>
