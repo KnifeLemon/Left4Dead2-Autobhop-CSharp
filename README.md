@@ -10,8 +10,10 @@ Example :
 
 
 if want Add more player Flags
+
+Edit [Player.cs -> 32 Line]
+<pre>
 <code>
-  Player.cs -> 32 Line
-  
   return flag == 129 || flag == 131 || flag == Etc.Flag;
 </code>
+</pre>
