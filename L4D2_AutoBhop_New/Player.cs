@@ -29,7 +29,7 @@ namespace L4D2_AutoBhop_New
 
         public static bool chk_player_ground()
         {
-            return flag == 129 || flag == 131;
+            return flag == 129 || flag == 131 || flag == 641 || flag == 643;
         }
     }
 }
