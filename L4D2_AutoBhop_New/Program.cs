@@ -17,8 +17,8 @@ namespace L4D2_AutoBhop_New
                 Environment.Exit(0);
             }
 
-            Model.player_base = Convert.ToInt32(args[0]);
-            Model.mflags = (int)(Convert.ToInt32(string.IsNullOrEmpty(args[1]) ? "0xF0" : args[1]));
+            Model.player_base = Convert.ToInt32(args[0], 16);
+            Model.mflags = (int)(Convert.ToInt32(string.IsNullOrEmpty(args[1]) ? "0xF0" : args[1]), 16);
 
             Console.WriteLine("[-] Find Left 4 Dead 2 process...");
             Process gameProcess = Process.GetProcessesByName("left4dead2").First();
